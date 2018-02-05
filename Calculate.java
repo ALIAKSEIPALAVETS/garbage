@@ -8,6 +8,6 @@
             System.out.print(a * b + " ");
             b++; 
 			System.out.println();
-        }
-}
+        	}
+	}
 } 
