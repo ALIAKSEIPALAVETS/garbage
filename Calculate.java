@@ -1,4 +1,4 @@
-// таблица умножения 
+// таблица умножения. Повезт загружу на гит!!!
 
  class Solution {
     public static void main(String[] args) {
