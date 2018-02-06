@@ -1,13 +1,13 @@
-// таблица умножения. Повезт загружу на гит!!!
+// table
 
- class Solution {
+public class Calculate {
     public static void main(String[] args) {
-        int a, b = 1;
-        while (b <= 10) {
-            for (a = 1; a <= 10; a++)
-            System.out.print(a * b + " ");
-            b++; 
-			System.out.println();
-        	}
+        System.out.println("Calculate...");
+	int first = Integer.valueOf(args[0]);
+	int second = Integer.valueOf(args[1]);
+       	int summ = first + second;
+        System.out.println("Sum  " + summ);
+	System.out.println("multiplication  " + (first*second));     	
+	System.out.println("exponentiation  " + (first*first + second*second));
 	}
 } 
